@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-#### SEE THIS LITTLE COMPONENT ON WEBSITE slider.styxshy.com
+#### SEE THIS LITTLE COMPONENT ON WEBSITE [slider.styxshy.com](https://slider.styxshy.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
