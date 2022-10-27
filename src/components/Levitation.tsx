@@ -24,14 +24,14 @@ interface  IStyledLevitation {
 
 export default function Levitation ({ mid, color, description }:LevitationProps) {
     /* Get DOM element */
-    const ref = useRef<HTMLDivElement>(null);
+    const ref = useRef<HTMLDivElement>(null)
     /* store element width */
     const [width, setWidth] = useState<number>(0)
     
     /* this triggers synchronously after all DOM mutations */
     useLayoutEffect(() => {
         /* clientWidth returns width with padding but without margin in px */
-        if(ref.current) setWidth(ref.current?.offsetWidth);
+        if(ref.current) setWidth(ref.current?.offsetWidth)
         /* get current element's width when rendering */
     }, [])
     

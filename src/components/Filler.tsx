@@ -12,7 +12,7 @@ interface FillerProps {
     color:string,
 }
 
-const Filler: React.FC<FillerProps> = ({ color, min, max }) =>{
+const Filler = ({ color, min, max }: FillerProps) =>{
     return (
         <div className="absolute h-3 rounded-md"
              color={color}
